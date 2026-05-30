@@ -47,7 +47,7 @@ target_bot/
 ├── .env.example                 # SAFE environment variables blueprint
 ├── .gitignore                   # Excludes secret credentials, logs, and sessions
 ├── requirements.txt             # Project Python package dependencies
-└── README.md                    # This guide!
+└── README.md                    
 ```
 
 ---
