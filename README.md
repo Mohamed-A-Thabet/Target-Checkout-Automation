@@ -1,10 +1,10 @@
-# 🤖 Target Headless Automation & Stock Monitor
+# Target Headless Automation & Stock Monitor
 
 A high-performance, modular Python backend and stock monitoring service for Target, featuring automated headless OAuth checkouts, dynamic proxy routing, and IMAP automated OTP mail parsing.
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 The project consists of three main components working together concurrently:
 1. **Chrome Extension (Frontend Harvester):** Generates valid Akamai/PX anti-bot shape signatures and hands them off to the backend via a WebSocket interface.
@@ -23,7 +23,7 @@ graph TD
 
 ---
 
-## 📁 Repository Directory Structure
+## Repository Directory Structure
 
 ```
 target_bot/
@@ -52,7 +52,7 @@ target_bot/
 
 ---
 
-## 🔒 Security Safety Built-In
+## Security Safety Built-In
 
 This repository is pre-configured with secure Git boundaries to **never** leak credentials or active cookies.
 The following files are completely isolated locally and will not be pushed to GitHub:
@@ -62,7 +62,7 @@ The following files are completely isolated locally and will not be pushed to Gi
 
 ---
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 ### 1. Prerequisites
 Ensure you have **Python 3.9+** (preferably Python 3.12) installed on your system.
@@ -85,7 +85,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🏃 Execution Guide
+## Execution Guide
 
 To run the complete automated check-out cycle, follow these steps:
 
