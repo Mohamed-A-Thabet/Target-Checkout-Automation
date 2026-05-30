@@ -1,0 +1,34 @@
+{
+    "temp" : [
+        {
+        "name": "Brooklyn Bensonhurst",
+        "id": "3276",
+        "zipcode": "11204"
+        },
+        {
+        "name": "Brooklyn Midwood",
+        "id": "3243",
+        "zipcode": "11229"
+        },
+        {
+        "name": "Brooklyn Junction",
+        "id": "2212",
+        "zipcode": "11210"
+        },
+        {
+        "name": "Brooklyn Flatbush and Church",
+        "id": "3404",
+        "zipcode": "11226"
+        },
+        {
+        "name": "Brooklyn Kings Plaza",
+        "id": "3429",
+        "zipcode": "11234"
+        },
+        {
+        "name": "Brooklyn Kings Hwy",
+        "id": "3326",
+        "zipcode": "11234"
+        }
+    ]
+}
