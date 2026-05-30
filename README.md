@@ -7,7 +7,7 @@ A high-performance, modular Python backend and stock monitoring service for Targ
 ## System Architecture
 
 The project consists of three main components working together concurrently:
-1. **Chrome Extension (Frontend Harvester):** Generates valid Akamai/PX anti-bot shape signatures and hands them off to the backend via a WebSocket interface.
+1. **Chrome Extension (Refract):** Generates valid Akamai/PX anti-bot shape signatures and hands them off to the backend via a WebSocket interface.
 2. **Stock Monitor (`src/monitor_runner.py`):** Periodically queries Target's Redsky product summaries through Oxylabs residential proxies to check item availability.
 3. **Headless Checkout Engine (`src/main.py`):** Acts as the central WebSocket router. When a product is in stock, it dynamically updates request headers with fresh harvested signatures and carries out a rapid, 5-step API-based checkout sequence.
 
